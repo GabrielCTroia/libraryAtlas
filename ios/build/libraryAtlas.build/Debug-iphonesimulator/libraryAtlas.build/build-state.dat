@@ -1,0 +1,1139 @@
+TlibraryAtlas
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Info.plist libraryAtlas/libraryAtlas-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+cCpResource libraryAtlas/config.xml build/libraryAtlas.app/config.xml
+cCpResource libraryAtlas/Resources/icons/icon-72.png build/libraryAtlas.app/icon-72.png
+cCpResource libraryAtlas/Resources/icons/icon.png build/libraryAtlas.app/icon.png
+cCpResource libraryAtlas/Resources/icons/icon@2x.png build/libraryAtlas.app/icon@2x.png
+cCpResource libraryAtlas/Resources/Capture.bundle build/libraryAtlas.app/Capture.bundle
+cCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/en.lproj/Localizable.strings libraryAtlas/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/es.lproj/Localizable.strings libraryAtlas/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xib
+cCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/de.lproj/Localizable.strings libraryAtlas/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/se.lproj/Localizable.strings libraryAtlas/Resources/se.lproj/Localizable.strings
+cCpResource libraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png build/libraryAtlas.app/Default-Landscape@2x~ipad.png
+cCpResource libraryAtlas/Resources/splash/Default-Landscape~ipad.png build/libraryAtlas.app/Default-Landscape~ipad.png
+cCpResource libraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png build/libraryAtlas.app/Default-Portrait@2x~ipad.png
+cCpResource libraryAtlas/Resources/splash/Default-Portrait~ipad.png build/libraryAtlas.app/Default-Portrait~ipad.png
+cCpResource libraryAtlas/Resources/splash/Default@2x~iphone.png build/libraryAtlas.app/Default@2x~iphone.png
+cCpResource libraryAtlas/Resources/splash/Default~iphone.png build/libraryAtlas.app/Default~iphone.png
+cCpResource libraryAtlas/Resources/splash/Default-568h@2x~iphone.png build/libraryAtlas.app/Default-568h@2x~iphone.png
+cCpResource libraryAtlas/Resources/icons/icon-72@2x.png build/libraryAtlas.app/icon-72@2x.png
+cProcessPCH /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.pth libraryAtlas/libraryAtlas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas normal i386
+cGenerateDSYMFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas
+cTouch /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000519CF7CC00000000001EB540
+t1369241548
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000519CF7CB00000000000C1030
+t1369241547
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000519CF7CC0000000000193640
+t1369241548
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000519CF7CB00000000000226E0
+t1369241547
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000519CF7CC00000000003D4DF0
+t1369241548
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000519CF7CD0000000000215DB0
+t1369241549
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000519CF7CD0000000000228FE0
+t1369241549
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000519CF7CD000000000009C590
+t1369241549
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000519CF7CD0000000000085620
+t1369241549
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000519CF7CF00000000003DDFA0
+t1369241551
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000519CF7D300000000002DBA50
+t1369241555
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000519CF7D300000000000BCC20
+t1369241555
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000519CF7D400000000001D5750
+t1369241556
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000519CF7D5000000000006CC50
+t1369241557
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000519CF7D70000000000AB6230
+t1369241559
+s11231792
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVAvailability.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVCommandDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVCommandDelegateImpl.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVCommandQueue.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVInvokedUrlCommand.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVPlugin.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVPluginResult.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVWhitelist.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libCordova.a
+c00000000519E41DE00000000003623B8
+t1369326046
+s3548088
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app.dSYM
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Capture.bundle
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Default~iphone.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Info.plist
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/MainViewController.nib
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/PkgInfo
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/config.xml
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/icon-72.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/icon-72@2x.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/icon.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/icon@2x.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/libraryAtlas.LinkFileList
+c00000000519E41DE00000000000001E6
+t1369326046
+s486
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+c00000000519E41DE000000000000051A
+t1369326046
+s1306
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.xib
+c00000000519D2C2E0000000000001759
+t1369254958
+s5977
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/Capture.bundle
+c00000000519D2C2E000000000000030E
+t1369254958
+s782
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/de.lproj/Localizable.strings
+c00000000519D2C2E0000000000000485
+t1369254958
+s1157
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/en.lproj/Localizable.strings
+c00000000519D2C2E0000000000000470
+t1369254958
+s1136
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/es.lproj/Localizable.strings
+c00000000519D2C2E000000000000047D
+t1369254958
+s1149
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/icons/icon-72.png
+c00000000519D2C2E0000000000001350
+t1369254958
+s4944
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/icons/icon-72@2x.png
+c00000000519D2C2E0000000000002DBA
+t1369254958
+s11706
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/icons/icon.png
+c00000000519D2C2E0000000000000F3E
+t1369254958
+s3902
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/icons/icon@2x.png
+c00000000519D2C2E0000000000001EBD
+t1369254958
+s7869
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/se.lproj/Localizable.strings
+c00000000519D2C2E0000000000000471
+t1369254958
+s1137
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default-568h@2x~iphone.png
+c00000000519D2C2E00000000000085B1
+t1369254958
+s34225
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000519D2C2E0000000000012DF4
+t1369254958
+s77300
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default-Landscape~ipad.png
+c00000000519D2C2E0000000000008877
+t1369254958
+s34935
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000519D2C2E0000000000012B02
+t1369254958
+s76546
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default-Portrait~ipad.png
+c00000000519D2C2E00000000000085E6
+t1369254958
+s34278
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default@2x~iphone.png
+c00000000519D2C2E0000000000007323
+t1369254958
+s29475
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/splash/Default~iphone.png
+c00000000519D2C2E000000000000289A
+t1369254958
+s10394
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/config.xml
+c00000000519D2C2E0000000000000B6B
+t1369254958
+s2923
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/libraryAtlas-Prefix.pch
+c00000000519D2C2E00000000000003C9
+t1369254958
+s969
+
+N/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVAvailability.h
+c00000000519E7CAF0000000000000C0B
+t1369341103
+s3083
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVCommandDelegate.h
+c00000000519E7CAF00000000000008BA
+t1369341103
+s2234
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c00000000519E7CAF0000000000000473
+t1369341103
+s1139
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVCommandQueue.h
+c00000000519E7CAF0000000000000501
+t1369341103
+s1281
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c00000000519E7CAF0000000000000906
+t1369341103
+s2310
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVPlugin.h
+c00000000519E7CAF0000000000000892
+t1369341103
+s2194
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVPluginResult.h
+c00000000519E7CAF0000000000000C13
+t1369341103
+s3091
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000519E7CAF0000000000000408
+t1369341103
+s1032
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVViewController.h
+c00000000519E7CAF0000000000000B67
+t1369341103
+s2919
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVWhitelist.h
+c00000000519E7CAF0000000000000476
+t1369341103
+s1142
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000519E7CAF00000000000003A0
+t1369341103
+s928
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libCordova.a
+c00000000519E827E0000000000361F70
+t1369342590
+s3546992
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Capture.bundle
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default~iphone.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Info.plist
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/MainViewController.nib
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/PkgInfo
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/config.xml
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon-72.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon-72@2x.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon@2x.png
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/libraryAtlas.LinkFileList
+c00000000519E827E00000000000001CB
+t1369342590
+s459
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+c00000000519E827E000000000000051A
+t1369342590
+s1306
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.h
+c00000000519D2C2E00000000000005BD
+t1369254958
+s1469
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m
+c00000000519D2C2E00000000000013DE
+t1369254958
+s5086
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.h
+c00000000519D2C2E00000000000004D2
+t1369254958
+s1234
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.m
+c00000000519D2C2E000000000000126D
+t1369254958
+s4717
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xib
+c00000000519D2C2E0000000000001759
+t1369254958
+s5977
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/Capture.bundle
+c00000000519D2C2E000000000000030E
+t1369254958
+s782
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/de.lproj/Localizable.strings
+c00000000519D2C2E0000000000000485
+t1369254958
+s1157
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/en.lproj/Localizable.strings
+c00000000519D2C2E0000000000000470
+t1369254958
+s1136
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/es.lproj/Localizable.strings
+c00000000519D2C2E000000000000047D
+t1369254958
+s1149
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon-72.png
+c00000000519D2C2E0000000000001350
+t1369254958
+s4944
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon-72@2x.png
+c00000000519D2C2E0000000000002DBA
+t1369254958
+s11706
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon.png
+c00000000519D2C2E0000000000000F3E
+t1369254958
+s3902
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon@2x.png
+c00000000519D2C2E0000000000001EBD
+t1369254958
+s7869
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/se.lproj/Localizable.strings
+c00000000519D2C2E0000000000000471
+t1369254958
+s1137
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-568h@2x~iphone.png
+c00000000519D2C2E00000000000085B1
+t1369254958
+s34225
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000519D2C2E0000000000012DF4
+t1369254958
+s77300
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Landscape~ipad.png
+c00000000519D2C2E0000000000008877
+t1369254958
+s34935
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000519D2C2E0000000000012B02
+t1369254958
+s76546
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Portrait~ipad.png
+c00000000519D2C2E00000000000085E6
+t1369254958
+s34278
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default@2x~iphone.png
+c00000000519D2C2E0000000000007323
+t1369254958
+s29475
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default~iphone.png
+c00000000519D2C2E000000000000289A
+t1369254958
+s10394
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/config.xml
+c00000000519D2C2E0000000000000B6B
+t1369254958
+s2923
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/libraryAtlas-Prefix.pch
+c00000000519D2C2E00000000000003C9
+t1369254958
+s969
+
+N/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m
+c00000000519D2C2E000000000000045E
+t1369254958
+s1118
+
+N/var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.pth
+t2
+s0
+
+NlibraryAtlas/libraryAtlas-Info.plist
+c00000000519D2C2E00000000000009CA
+t1369254958
+s2506
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf52b5dfeb94eb741^a48d5ffeb94eb741^---0#1#0#--18"Check dependencies36"49EC4887-6F84-4ECC-9AEA-83DEF3E8001F-
+
+CCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391018847.580232
+e391018847.772808
+r1
+xCompileC
+xbuild/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m55a2945f794eb741^b2d5c55f794eb741^-716"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-391018847#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-391018847#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@112"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@112"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m0000000000000000^3859"CompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o libraryAtlas/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -include /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch -MMD -MT dependencies -MF /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.dia -c /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/AppDelegate.m -o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o36"115FAA65-33B7-471F-9122-2EE99A976935-
+
+CCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391035393.050681
+e391035393.159475
+r1
+xCompileC
+xbuild/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.mf2280d01ba4eb741^7adf2801ba4eb741^-698"/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-391035393#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-391035393#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m0000000000000000^3950"CompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o libraryAtlas/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -include /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch -MMD -MT dependencies -MF /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.dia -c /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/AppDelegate.m -o /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/AppDelegate.o36"49485AF5-E513-4C94-A9CA-16BDB86ACB30-
+
+CCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391018847.651512
+e391018847.764092
+r1
+xCompileC
+xbuild/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.m44fda65f794eb741^ae9ac35f794eb741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.m0000000000000000^3901"CompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o libraryAtlas/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -include /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch -MMD -MT dependencies -MF /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.dia -c /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.m -o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o36"B6F8354D-A746-4969-8FCB-00D4B59DC185-
+
+CCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391035393.084984
+e391035393.183214
+r1
+xCompileC
+xbuild/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.ma4e01501ba4eb741^4fe72e01ba4eb741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.m0000000000000000^3992"CompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o libraryAtlas/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -include /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch -MMD -MT dependencies -MF /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.dia -c /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.m -o /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/MainViewController.o36"6B4DFBD7-C7CD-4E6D-9B61-33E3F871EC3E-
+
+CCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391018847.579617
+e391018847.646842
+r1
+xCompileC
+xbuild/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/main.mbf7e945f794eb741^a796a55f794eb741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/main.m0000000000000000^3801"CompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o libraryAtlas/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -include /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch -MMD -MT dependencies -MF /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.dia -c /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/main.m -o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o36"6DA18C53-B029-434F-8CC8-0D69E203D122-
+
+CCompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391035393.050109
+e391035393.083766
+r1
+xCompileC
+xbuild/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m10070d01ba4eb741^7c7d1501ba4eb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m0000000000000000^3892"CompileC build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o libraryAtlas/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -include /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch -MMD -MT dependencies -MF /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.dia -c /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/main.m -o /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/main.o36"492BAD85-799B-413E-9924-2F5AB5D8FD99-
+
+CCompileXIB /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.xib
+s391018847.128260
+e391018847.149845
+r1
+xCompileXIB
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compiling /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.xibd508215f794eb741^9c69265f794eb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.xib0000000000000000^1011"CompileXIB libraryAtlas/Classes/MainViewController.xib    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/MainViewController.nib /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"3FAD72FD-05CE-4DCA-B377-6767D8773083-
+
+CCompileXIB /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xib
+s391035391.038950
+e391035392.575199
+r1
+xCompileXIB
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xib
+o2013-05-23 16:56:32.012 Interface Builder Cocoa Touch Tool[62705:f07] CFPreferences: user home directory at file://localhost/Users/station15/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xibf20c0affb94eb741^94859300ba4eb741^-242"2013-05-23 16:56:32.012 Interface Builder Cocoa Touch Tool[62705:f07] CFPreferences: user home directory at file://localhost/Users/station15/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xib0000000000000000^1219"CompileXIB libraryAtlas/Classes/MainViewController.xib    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/MainViewController.nib /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"5BAABB25-9D47-4BD6-9ED0-B8CACD4E62C9-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/de.lproj/Localizable.strings libraryAtlas/Resources/de.lproj/Localizable.strings
+s391018847.128624
+e391018847.130888
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/de.lproj/Localizable.strings
+xlibraryAtlas/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/de.lproj/Localizable.stringsb1fd205f794eb741^ae81215f794eb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/de.lproj/Localizable.strings0000000000000000^657"CopyStringsFile build/libraryAtlas.app/de.lproj/Localizable.strings libraryAtlas/Resources/de.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/de.lproj -- libraryAtlas/Resources/de.lproj/Localizable.strings36"DBA550D2-D993-4397-AC73-4150A44CF811-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/en.lproj/Localizable.strings libraryAtlas/Resources/en.lproj/Localizable.strings
+s391018847.116423
+e391018847.127063
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/en.lproj/Localizable.strings
+xlibraryAtlas/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/en.lproj/Localizable.strings1f311e5f794eb741^3387205f794eb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/en.lproj/Localizable.strings0000000000000000^657"CopyStringsFile build/libraryAtlas.app/en.lproj/Localizable.strings libraryAtlas/Resources/en.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/en.lproj -- libraryAtlas/Resources/en.lproj/Localizable.strings36"142E828A-46A0-4584-901D-FB8CC46C821C-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/es.lproj/Localizable.strings libraryAtlas/Resources/es.lproj/Localizable.strings
+s391018847.121092
+e391018847.127370
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/es.lproj/Localizable.strings
+xlibraryAtlas/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/es.lproj/Localizable.strings90121f5f794eb741^7c9d205f794eb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/es.lproj/Localizable.strings0000000000000000^657"CopyStringsFile build/libraryAtlas.app/es.lproj/Localizable.strings libraryAtlas/Resources/es.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/es.lproj -- libraryAtlas/Resources/es.lproj/Localizable.strings36"1A5370E6-E5D8-4AFF-9B7A-DEBAAC76246C-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/se.lproj/Localizable.strings libraryAtlas/Resources/se.lproj/Localizable.strings
+s391018847.132102
+e391018847.136389
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/se.lproj/Localizable.strings
+xlibraryAtlas/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/se.lproj/Localizable.strings79e6215f794eb741^b0ff225f794eb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/Resources/se.lproj/Localizable.strings0000000000000000^657"CopyStringsFile build/libraryAtlas.app/se.lproj/Localizable.strings libraryAtlas/Resources/se.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/se.lproj -- libraryAtlas/Resources/se.lproj/Localizable.strings36"FA447066-DEEB-44C8-BD7D-2850F0000155-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/de.lproj/Localizable.strings libraryAtlas/Resources/de.lproj/Localizable.strings
+s391035391.039174
+e391035391.048642
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/de.lproj/Localizable.strings
+xlibraryAtlas/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/de.lproj/Localizable.strings11190affb94eb741^8a730cffb94eb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/de.lproj/Localizable.strings0000000000000000^874"CopyStringsFile build/libraryAtlas.app/de.lproj/Localizable.strings libraryAtlas/Resources/de.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/de.lproj -- libraryAtlas/Resources/de.lproj/Localizable.strings36"E87D14E2-6F35-4D0C-A239-9C9E2C95C7E1-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/en.lproj/Localizable.strings libraryAtlas/Resources/en.lproj/Localizable.strings
+s391035391.016155
+e391035391.037689
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/en.lproj/Localizable.strings
+xlibraryAtlas/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/en.lproj/Localizable.strings844a04ffb94eb741^fbad09ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/en.lproj/Localizable.strings0000000000000000^874"CopyStringsFile build/libraryAtlas.app/en.lproj/Localizable.strings libraryAtlas/Resources/en.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/en.lproj -- libraryAtlas/Resources/en.lproj/Localizable.strings36"C551ADFC-62A8-489A-A961-00D874B720F0-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/es.lproj/Localizable.strings libraryAtlas/Resources/es.lproj/Localizable.strings
+s391035391.034461
+e391035391.038833
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/es.lproj/Localizable.strings
+xlibraryAtlas/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/es.lproj/Localizable.strings87fb08ffb94eb741^ad140affb94eb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/es.lproj/Localizable.strings0000000000000000^874"CopyStringsFile build/libraryAtlas.app/es.lproj/Localizable.strings libraryAtlas/Resources/es.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/es.lproj -- libraryAtlas/Resources/es.lproj/Localizable.strings36"F6DCFD1D-BB84-4F4E-B201-D8331009E483-
+
+CCopyStringsFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/se.lproj/Localizable.strings libraryAtlas/Resources/se.lproj/Localizable.strings
+s391035391.050176
+e391035391.058695
+r1
+xCopyStringsFile
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/se.lproj/Localizable.strings
+xlibraryAtlas/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy libraryAtlas/Resources/se.lproj/Localizable.strings07ee0cffb94eb741^73110fffb94eb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/se.lproj/Localizable.strings0000000000000000^874"CopyStringsFile build/libraryAtlas.app/se.lproj/Localizable.strings libraryAtlas/Resources/se.lproj/Localizable.strings    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/se.lproj -- libraryAtlas/Resources/se.lproj/Localizable.strings36"7374FEBC-679D-4569-A303-AB4E97902E9C-
+
+CCpResource libraryAtlas/Resources/Capture.bundle build/libraryAtlas.app/Capture.bundle
+s391035391.015706
+e391035391.033249
+r1
+xCpResource
+xlibraryAtlas/Resources/Capture.bundle
+xbuild/libraryAtlas.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/libraryAtlas.app/Capture.bundle721804ffb94eb741^db8b08ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Capture.bundle000000000080d041^890"CpResource libraryAtlas/Resources/Capture.bundle build/libraryAtlas.app/Capture.bundle    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/Capture.bundle /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"676EF551-9B4D-4D58-8F1D-8226852B5631-
+
+CCpResource libraryAtlas/Resources/icons/icon-72.png build/libraryAtlas.app/icon-72.png
+s391035390.996686
+e391035391.011496
+r1
+xCpResource
+xlibraryAtlas/Resources/icons/icon-72.png
+xbuild/libraryAtlas.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/libraryAtlas.app/icon-72.png573efffeb94eb741^a5f602ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon-72.png000000000080d041^893"CpResource libraryAtlas/Resources/icons/icon-72.png build/libraryAtlas.app/icon-72.png    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon-72.png /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"3BC274EA-DE81-402A-BBDD-0AF2038F326B-
+
+CCpResource libraryAtlas/Resources/icons/icon-72@2x.png build/libraryAtlas.app/icon-72@2x.png
+s391035391.107062
+e391035391.109686
+r1
+xCpResource
+xlibraryAtlas/Resources/icons/icon-72@2x.png
+xbuild/libraryAtlas.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/libraryAtlas.app/icon-72@2x.png037c1bffb94eb741^ce1a1cffb94eb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon-72@2x.png000000000080d041^908"CpResource "libraryAtlas/Resources/icons/icon-72@2x.png" "build/libraryAtlas.app/icon-72@2x.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon-72@2x.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"D462C76D-BCF3-4BDB-9514-0BFE87227EC6-
+
+CCpResource libraryAtlas/Resources/icons/icon.png build/libraryAtlas.app/icon.png
+s391035391.011884
+e391035391.014494
+r1
+xCpResource
+xlibraryAtlas/Resources/icons/icon.png
+xbuild/libraryAtlas.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/libraryAtlas.app/icon.png9a2303ffb94eb741^e1b503ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon.png000000000080d041^884"CpResource libraryAtlas/Resources/icons/icon.png build/libraryAtlas.app/icon.png    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon.png /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"0D0CE293-5DF8-4460-9AC0-7FDB1FE5687C-
+
+CCpResource libraryAtlas/Resources/icons/icon@2x.png build/libraryAtlas.app/icon@2x.png
+s391035391.012540
+e391035391.015169
+r1
+xCpResource
+xlibraryAtlas/Resources/icons/icon@2x.png
+xbuild/libraryAtlas.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/libraryAtlas.app/icon@2x.png354603ffb94eb741^9be803ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/icon@2x.png000000000080d041^899"CpResource "libraryAtlas/Resources/icons/icon@2x.png" "build/libraryAtlas.app/icon@2x.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/icons/icon@2x.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"224661BC-BA51-4C17-94BC-6715CA56E33C-
+
+CCpResource libraryAtlas/Resources/splash/Default-568h@2x~iphone.png build/libraryAtlas.app/Default-568h@2x~iphone.png
+s391035391.102990
+e391035391.105882
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default-568h@2x~iphone.png
+xbuild/libraryAtlas.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/libraryAtlas.app/Default-568h@2x~iphone.png47751affb94eb741^f75b1bffb94eb741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-568h@2x~iphone.png000000000080d041^946"CpResource "libraryAtlas/Resources/splash/Default-568h@2x~iphone.png" "build/libraryAtlas.app/Default-568h@2x~iphone.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-568h@2x~iphone.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"06360B56-7535-4FF1-8BB1-5AFEDF045E9D-
+
+CCpResource libraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png build/libraryAtlas.app/Default-Landscape@2x~ipad.png
+s391035391.059994
+e391035391.063117
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/libraryAtlas.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/libraryAtlas.app/Default-Landscape@2x~ipad.png9b740fffb94eb741^516910ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Landscape@2x~ipad.png000000000080d041^955"CpResource "libraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png" "build/libraryAtlas.app/Default-Landscape@2x~ipad.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Landscape@2x~ipad.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"2A710BA7-BB81-4B57-8EC6-765067D8F7DC-
+
+CCpResource libraryAtlas/Resources/splash/Default-Landscape~ipad.png build/libraryAtlas.app/Default-Landscape~ipad.png
+s391035391.064685
+e391035391.073399
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default-Landscape~ipad.png
+xbuild/libraryAtlas.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/libraryAtlas.app/Default-Landscape~ipad.png16a510ffb94eb741^04ca12ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Landscape~ipad.png000000000080d041^946"CpResource "libraryAtlas/Resources/splash/Default-Landscape~ipad.png" "build/libraryAtlas.app/Default-Landscape~ipad.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Landscape~ipad.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"C20CD2B1-F2F4-42B0-A336-A10A37F673B5-
+
+CCpResource libraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png build/libraryAtlas.app/Default-Portrait@2x~ipad.png
+s391035391.074627
+e391035391.088358
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/libraryAtlas.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/libraryAtlas.app/Default-Portrait@2x~ipad.pngcb2f13ffb94eb741^cba016ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Portrait@2x~ipad.png000000000080d041^952"CpResource "libraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png" "build/libraryAtlas.app/Default-Portrait@2x~ipad.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Portrait@2x~ipad.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"018BB71B-9879-4916-9C38-A8719D53B52A-
+
+CCpResource libraryAtlas/Resources/splash/Default-Portrait~ipad.png build/libraryAtlas.app/Default-Portrait~ipad.png
+s391035391.089639
+e391035391.093036
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default-Portrait~ipad.png
+xbuild/libraryAtlas.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/libraryAtlas.app/Default-Portrait~ipad.png8e0717ffb94eb741^0bee17ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default-Portrait~ipad.png000000000080d041^943"CpResource "libraryAtlas/Resources/splash/Default-Portrait~ipad.png" "build/libraryAtlas.app/Default-Portrait~ipad.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default-Portrait~ipad.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"6C77F4B5-A0F8-4FBE-A1FF-B24461A3B073-
+
+CCpResource libraryAtlas/Resources/splash/Default@2x~iphone.png build/libraryAtlas.app/Default@2x~iphone.png
+s391035391.094244
+e391035391.097020
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default@2x~iphone.png
+xbuild/libraryAtlas.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/libraryAtlas.app/Default@2x~iphone.pngc23418ffb94eb741^49d718ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default@2x~iphone.png000000000080d041^931"CpResource "libraryAtlas/Resources/splash/Default@2x~iphone.png" "build/libraryAtlas.app/Default@2x~iphone.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default@2x~iphone.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"C0E89499-25C0-4724-AC42-60E1520035BD-
+
+CCpResource libraryAtlas/Resources/splash/Default~iphone.png build/libraryAtlas.app/Default~iphone.png
+s391035391.098435
+e391035391.101546
+r1
+xCpResource
+xlibraryAtlas/Resources/splash/Default~iphone.png
+xbuild/libraryAtlas.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/libraryAtlas.app/Default~iphone.pngaa4819ffb94eb741^390c1affb94eb741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Default~iphone.png000000000080d041^922"CpResource "libraryAtlas/Resources/splash/Default~iphone.png" "build/libraryAtlas.app/Default~iphone.png"    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/Resources/splash/Default~iphone.png" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"267AD8F4-7AB8-4821-82AA-A6007F4F070E-
+
+CCpResource libraryAtlas/config.xml build/libraryAtlas.app/config.xml
+s391035390.995911
+e391035391.010733
+r1
+xCpResource
+xlibraryAtlas/config.xml
+xbuild/libraryAtlas.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/libraryAtlas.app/config.xml0b0afffeb94eb741^30d702ffb94eb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/config.xml000000000080d041^858"CpResource libraryAtlas/config.xml build/libraryAtlas.app/config.xml    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/config.xml /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"4758032C-A723-4266-ADC2-216390536C56-
+
+CGenerateDSYMFile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app.dSYM /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas
+s391018847.924409
+e391018848.048830
+r1
+xGenerateDSYMFile
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app.dSYM
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Generate /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app.dSYMaab9ec5f794eb741^4d810c60794eb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app.dSYM000000000080d041^670"GenerateDSYMFile build/libraryAtlas.app.dSYM build/libraryAtlas.app/libraryAtlas    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas -o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app.dSYM36"D6F6A5E7-A780-444B-8543-C525E485E310-
+
+CGenerateDSYMFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas
+s391035393.379141
+e391035393.501181
+r1
+xGenerateDSYMFile
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generate /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM6c246101ba4eb741^e2578001ba4eb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM000000000080d041^878"GenerateDSYMFile build/libraryAtlas.app.dSYM build/libraryAtlas.app/libraryAtlas    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas -o /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app.dSYM36"5C30D953-3A3F-4FD2-A218-75EAA5534450-
+
+CLd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas normal i386
+s391018847.779635
+e391018847.917640
+r1
+xLd
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas1db0c75f794eb741^4df7ea5f794eb741^---0#0#0#--1760"Ld build/libraryAtlas.app/libraryAtlas normal i386    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -F/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -filelist /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/libraryAtlas.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/libraryAtlas36"729FC538-7897-433C-BC52-D403CEEECE90-
+
+CLd /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas normal i386
+s391035393.189931
+e391035393.372318
+r1
+xLd
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlascbb93001ba4eb741^e84f5f01ba4eb741^---0#0#0#--1941"Ld build/libraryAtlas.app/libraryAtlas normal i386    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -F/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -filelist /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/libraryAtlas.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/libraryAtlas36"8359644E-6A95-4D6E-A8B3-A19FD77EAC68-
+
+CPhaseScriptExecution "Copy www directory" /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+s391018846.488095
+e391018847.065975
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.551s
+ouser	0m0.187s
+osys	0m0.241s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'9eb77d5e794eb741^e8f8105f794eb741^-42"real	0m0.551suser	0m0.187ssys	0m0.241s3(21%IDEActivityLogMessage2@14"real	0m0.551s-391018847#1#14#-0#-----2@14"user	0m0.187s-391018847#15#14#-0#-----2@13"sys	0m0.241s-391018847#29#13#-0#-----0#0#0#--21585"PhaseScriptExecution "Copy www directory" build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER station15    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv BUILD_ROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv CACHE_ROOT /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv CONFIGURATION_TEMP_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH libraryAtlas.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH libraryAtlas.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/libraryAtlas.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME libraryAtlas.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH libraryAtlas.app/Executables    setenv EXECUTABLE_FOLDER_PATH libraryAtlas.app    setenv EXECUTABLE_NAME libraryAtlas    setenv EXECUTABLE_PATH libraryAtlas.app/libraryAtlas    setenv FILE_LIST /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH libraryAtlas.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libraryAtlas.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER libraryAtlas/libraryAtlas-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include\" \"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/usr/local/lib/include\" \"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/UninstalledProducts/include\" \"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE libraryAtlas/libraryAtlas-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH libraryAtlas.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH libraryAtlas.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/libraryAtlas.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER station15    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/libraryAtlas.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH libraryAtlas.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/libraryAtlas.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH libraryAtlas.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal    setenv OBJROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH libraryAtlas.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/PkgInfo    setenv PKGINFO_PATH libraryAtlas.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH libraryAtlas.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH libraryAtlas.app/PrivateHeaders    setenv PRODUCT_NAME libraryAtlas    setenv PRODUCT_SETTINGS_PATH /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/libraryAtlas-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT libraryAtlas    setenv PROJECT_DERIVED_FILE_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/DerivedSources    setenv PROJECT_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PROJECT_FILE_PATH /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas.xcodeproj    setenv PROJECT_NAME libraryAtlas    setenv PROJECT_TEMP_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build    setenv PROJECT_TEMP_ROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv PUBLIC_HEADERS_FOLDER_PATH libraryAtlas.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH libraryAtlas.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH libraryAtlas.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH libraryAtlas.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv SRCROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME libraryAtlas    setenv TARGET_BUILD_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv TARGET_NAME libraryAtlas    setenv TARGET_TEMP_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_FILES_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_FILE_DIR /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_ROOT /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH libraryAtlas.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER station15    setenv USER_APPS_DIR /Users/station15/Applications    setenv USER_LIBRARY_DIR /Users/station15/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH libraryAtlas.app/version.plist    setenv VERSION_INFO_BUILDER station15    setenv VERSION_INFO_FILE libraryAtlas_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:libraryAtlas  PROJECT:libraryAtlas-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME libraryAtlas.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh36"EC24CC8E-7E0D-4DD2-8F9B-77328EB7D479-
+
+CPhaseScriptExecution "Copy www directory" /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+s391035390.395657
+e391035390.985638
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.561s
+ouser	0m0.185s
+osys	0m0.240s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'b70a66feb94eb741^d17afcfeb94eb741^-42"real	0m0.561suser	0m0.185ssys	0m0.240s3(21%IDEActivityLogMessage2@14"real	0m0.561s-391035390#1#14#-0#-----2@14"user	0m0.185s-391035390#15#14#-0#-----2@13"sys	0m0.240s-391035390#29#13#-0#-----0#0#0#--21279"PhaseScriptExecution "Copy www directory" build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER station15    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv BUILD_ROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv CACHE_ROOT /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH libraryAtlas.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH libraryAtlas.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/libraryAtlas.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME libraryAtlas.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH libraryAtlas.app/Executables    setenv EXECUTABLE_FOLDER_PATH libraryAtlas.app    setenv EXECUTABLE_NAME libraryAtlas    setenv EXECUTABLE_PATH libraryAtlas.app/libraryAtlas    setenv FILE_LIST /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH libraryAtlas.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libraryAtlas.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER libraryAtlas/libraryAtlas-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include\" \"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/usr/local/lib/include\" \"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/UninstalledProducts/include\" \"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE libraryAtlas/libraryAtlas-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH libraryAtlas.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH libraryAtlas.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/libraryAtlas.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER station15    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/libraryAtlas.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH libraryAtlas.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal/i386/libraryAtlas.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH libraryAtlas.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Objects-normal    setenv OBJROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH libraryAtlas.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/PkgInfo    setenv PKGINFO_PATH libraryAtlas.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH libraryAtlas.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH libraryAtlas.app/PrivateHeaders    setenv PRODUCT_NAME libraryAtlas    setenv PRODUCT_SETTINGS_PATH /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/libraryAtlas-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT libraryAtlas    setenv PROJECT_DERIVED_FILE_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/DerivedSources    setenv PROJECT_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PROJECT_FILE_PATH /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas.xcodeproj    setenv PROJECT_NAME libraryAtlas    setenv PROJECT_TEMP_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build    setenv PROJECT_TEMP_ROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH libraryAtlas.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/station15/Projects/phoneApps/libraryAtlas/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH libraryAtlas.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH libraryAtlas.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH libraryAtlas.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv SRCROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME libraryAtlas    setenv TARGET_BUILD_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv TARGET_NAME libraryAtlas    setenv TARGET_TEMP_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_FILES_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_FILE_DIR /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build    setenv TEMP_ROOT /Users/station15/Projects/phoneApps/libraryAtlas/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH libraryAtlas.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER station15    setenv USER_APPS_DIR /Users/station15/Applications    setenv USER_LIBRARY_DIR /Users/station15/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH libraryAtlas.app/version.plist    setenv VERSION_INFO_BUILDER station15    setenv VERSION_INFO_FILE libraryAtlas_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:libraryAtlas  PROJECT:libraryAtlas-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME libraryAtlas.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/Script-304B58A110DAC018002A0835.sh36"FDC707F2-4CD2-41EB-9EB7-BAAEBBD4FE01-
+
+CProcessInfoPlistFile /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Info.plist libraryAtlas/libraryAtlas-Info.plist
+s391018846.476730
+e391018846.480145
+r1
+xProcessInfoPlistFile
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Info.plist
+xlibraryAtlas/libraryAtlas-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process libraryAtlas/libraryAtlas-Info.plist47207a5e794eb741^a7ea7a5e794eb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/libraryAtlas-Info.plist0000000000000000^722"ProcessInfoPlistFile build/libraryAtlas.app/Info.plist libraryAtlas/libraryAtlas-Info.plist    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility libraryAtlas/libraryAtlas-Info.plist -genpkginfo /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app/Info.plist36"E5C8777A-D331-4898-A6A3-28A8722C0ABF-
+
+CProcessInfoPlistFile /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Info.plist libraryAtlas/libraryAtlas-Info.plist
+s391035390.381736
+e391035390.387746
+r1
+xProcessInfoPlistFile
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Info.plist
+xlibraryAtlas/libraryAtlas-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process libraryAtlas/libraryAtlas-Info.plist56d361feb94eb741^c74b63feb94eb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/libraryAtlas-Info.plist0000000000000000^930"ProcessInfoPlistFile build/libraryAtlas.app/Info.plist libraryAtlas/libraryAtlas-Info.plist    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    builtin-infoPlistUtility libraryAtlas/libraryAtlas-Info.plist -genpkginfo /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app/Info.plist36"F9776C7D-228A-46CA-8FFE-D2546FBC5EB7-
+
+CProcessPCH /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.pth libraryAtlas/libraryAtlas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391018847.207507
+e391018847.572821
+r1
+xProcessPCH
+x/var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.pth
+xlibraryAtlas/libraryAtlas-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile libraryAtlas/libraryAtlas-Prefix.pch683c355f794eb741^8aaf925f794eb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/libraryAtlas-Prefix.pch0000000000000000^3790"ProcessPCH /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.pth libraryAtlas/libraryAtlas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build --serialize-diagnostics /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.dia -c /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/libraryAtlas/libraryAtlas-Prefix.pch -o /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-fokvjtefaeyvwugkfyfqgiarzuxt/libraryAtlas-Prefix.pch.d36"A5C00C77-F928-4C8F-AB3B-EF91ACBB2AD1-
+
+CProcessPCH /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.pth libraryAtlas/libraryAtlas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391035392.667183
+e391035393.043124
+r1
+xProcessPCH
+x/var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.pth
+xlibraryAtlas/libraryAtlas-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile libraryAtlas/libraryAtlas-Prefix.pchbedcab00ba4eb741^44180b01ba4eb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/libraryAtlas-Prefix.pch0000000000000000^3908"ProcessPCH /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.pth libraryAtlas/libraryAtlas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-generated-files.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-own-target-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-all-target-headers.hmap -iquote /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/libraryAtlas-project-headers.hmap -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/usr/local/lib/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/UninstalledProducts/include -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources/i386 -I/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.build/Debug-iphonesimulator/libraryAtlas.build/DerivedSources -F/Users/station15/Projects/phoneApps/libraryAtlas/ios/build --serialize-diagnostics /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.dia -c /Users/station15/Projects/phoneApps/libraryAtlas/ios/libraryAtlas/libraryAtlas-Prefix.pch -o /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/wz/t4scg24x6ml0ybxddr5_msqm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/libraryAtlas-Prefix-gojlfiydsqnptaayptgtuvyxooxz/libraryAtlas-Prefix.pch.d36"E867F84F-056B-4559-861B-C7BD37AFA913-
+
+CTouch /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app
+s391018848.056322
+e391018848.062234
+r1
+xTouch
+x/Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.appfc890e60794eb741^baf80f60794eb741^---0#0#0#--434"Touch build/libraryAtlas.app    cd /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/station15/Projects/phoneApps/PhoneGap-2.7/libraryAtlas/build/libraryAtlas.app36"65805EB1-BBA4-45F5-A135-31CE1DA65EC9-
+
+CTouch /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app
+s391035393.509194
+e391035393.516014
+r1
+xTouch
+x/Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app18788201ba4eb741^ca1b8401ba4eb741^---0#0#0#--651"Touch build/libraryAtlas.app    cd /Users/station15/Projects/phoneApps/libraryAtlas/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Development/adt-bundle-mac-x86_64-20130514/sdk/tools/"    /usr/bin/touch -c /Users/station15/Projects/phoneApps/libraryAtlas/ios/build/libraryAtlas.app36"BCA31727-17EA-4E31-B871-F980229000F6-
+
