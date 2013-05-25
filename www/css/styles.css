@@ -1,0 +1,35 @@
+html, body, #map {
+	height: 200px;	
+	width: 100%;
+}
+
+h1 {
+	font-family: arvo;
+}
+h2 {
+	font-family: arvo;
+}
+h3 {
+	font-family: ubuntu;
+}
+.landing_pg img {
+	width: 100%;
+}
+.ui-li-desc {
+	white-space: normal;
+}
+.ui-li-heading {
+	width: auto;
+	white-space: normal;	
+	font-size: 14px;
+}
+.ui-li-aside {
+	width: auto;
+	margin-right: -30px;
+	margin-top: 10px;
+}
+.quote img{
+	margin: 0 auto;
+	width: 150px;
+	display: block;
+}

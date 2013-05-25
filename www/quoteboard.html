@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Quoteboard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/leaflet.css" />			
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<!-- Google Font -->
+		<link href='http://fonts.googleapis.com/css?family=Arvo:300,400,500,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div data-role="page" class="quoteboard">
+
+			<div data-role="header" data-position="fixed" class="main_header">
+				<h1>Quoteboard</h1>			
+			</div>
+
+			<!-- Map -->
+			<div id="map"></div>			
+
+			<!-- Quote Content -->
+			<div data-role="content" class="content">
+
+				<ul data-role="listview">
+				    <li><a href="quote.html"  data-transition="slide">
+				        <h2>Breakfast at Tiffany's</h2>
+				    
+				        <h3>On the way home I noticed a cab-driver crowd gathered in front of P.J. Clarke's saloon, apparently attracted there by a happy group of whiskey-eyed Australian army officers baritoning...</h3>
+				    
+				        <p class="ui-li-aside"><strong>Just Now</strong></p>
+				    </a></li>
+				
+				    <li><a href="quote.html">
+				        <h2>Breakfast at Tiffany's</h2>
+				        <p>I am always drawn back to places where I have lived, the houses and their neighborhoods. For instance, there is a brownstone in the East Seventies where, during the early years of the war, I had my first New York apartment...</p>
+				        <p class="ui-li-aside"><strong>8 hours ago</strong></p>
+				    </a></li>
+				
+				    <li><a href="quote.html">
+				        <h2>Breakfast at Tiffany's</h2>
+				        <p>On the way home I noticed a cab-driver crowd gathered in front of P.J. Clarke's saloon, apparently attracted there by a happy group of whiskey-eyed Australian army officers baritoning...</p>
+				        <p class="ui-li-aside"><strong>1 day ago</strong></p>
+				    </a></li>
+
+				    <li><a href="quote.html">
+				        <h2>Breakfast at Tiffany's</h2>
+				        <p>I am always drawn back to places where I have lived, the houses and their neighborhoods. For instance, there is a brownstone in the East Seventies where, during the early years of the war, I had my first New York apartment...</p>
+				        <p class="ui-li-aside"><strong>2 days ago</strong></p>
+				    </a></li>
+
+				</ul>							
+			</div>
+
+			<!-- Bottom Menu -->
+			<div data-role="footer" data-id="foo1" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="/" data-icon="grid" >Explore Quotes</a></li>
+						<li><a href="/" data-icon="grid" class="ui-btn-active ui-state-persist">Quote Board</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /footer -->			
+		</div>
+		<!-- Javascript -->
+		<script src="js/leaflet.js"></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script>
+	    	var map = L.map('map').setView([40.7534388, -73.9901187], 16);
+
+		    L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+    	    maxZoom: 18}).addTo(map);
+		</script>		
+
+
+
+	</body>
+
+
+
+</html>
